@@ -46,9 +46,14 @@ $ anvil
 ```
 
 ### Deploy
+Vaka go deploy-nav FinkiCoin contractot
+```
+forge script script/FinkiCoinScript.s.sol:FinkiCoinScript --rpc-url https://eth-sepolia.g.alchemy.com/v2/POoY-w-ynjcqIa7yD4H13LtOo870vGeF --private-key <INPUT_PRIVATE_KEY> --broadcast --verify --etherscan-api-key FQFVHWRK2PFGHCR296BENZQYW88N39REHE
+```
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+Vaka go kreirav uniswap v2 pair liquidity pool contractot
+```
+forge script script/CreatePool.s.sol:CreatePool --rpc-url https://eth-sepolia.g.alchemy.com/v2/POoY-w-ynjcqIa7yD4H13LtOo870vGeF --private-key c2ad80bee2376402360067830ea0446720c73b67b45b19ddcda56c1da278199f —broadcast
 ```
 
 ### Cast
