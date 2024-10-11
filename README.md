@@ -18,3 +18,8 @@ Vaka staviv liqudity u uniswap v2 pair liquidity pool contractot
 ```
 forge script script/AddLiquidity.s.sol:AddLiquidity --rpc-url https://eth-sepolia.g.alchemy.com/v2/POoY-w-ynjcqIa7yD4H13LtOo870vGeF --private-key <INPUT_PRIVATE_KEY> —broadcast
 ```
+
+VAZNO: VAA TX SO DRGIOT PRIVATE KEY / ACCOUNT PRAVI A, so vtoriot
+```
+forge script script/PerformSwap.s.sol:PerformSwap --rpc-url https://eth-sepolia.g.alchemy.com/v2/POoY-w-ynjcqIa7yD4H13LtOo870vGeF --private-key <INPUT_PRIVATE_KEY> --broadcast
+```
