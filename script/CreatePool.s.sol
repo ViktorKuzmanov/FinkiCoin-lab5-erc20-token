@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Script, console} from "forge-std/Script.sol";
+// TODO: neli za dzabe go import via finkicoin contract?
 import {FinkiCoin} from "../src/FinkiCoin.sol";
 
 interface IUniswapV2Factory {
